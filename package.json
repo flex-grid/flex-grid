@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "echo 'Running test'"
+    "test": "echo 'Running test'",
+    "commit": "git-cz"
   },
   "husky": {
     "hooks": {
