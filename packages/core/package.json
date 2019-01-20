@@ -2,8 +2,12 @@
   "name": "@flex-grid/core",
   "version": "0.0.0",
   "description": "Flex Grid Core Library",
-  "main": "index.js",
+  "main": "flex-grid.core.js",
   "author": "Apurva Ojas",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
