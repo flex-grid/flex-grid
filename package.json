@@ -22,7 +22,7 @@
     "prerelease": "yarn build",
     "release": "lerna publish",
     "tsc": "tsc",
-    "build:declarations": "lerna exec --parallel 'tsc --project ./tsconfig.build.json'"
+    "build:declarations": "lerna exec --parallel -- tsc -p ./tsconfig.build.json"
   },
   "workspaces": [
     "packages/*"
